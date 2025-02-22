@@ -1,0 +1,38 @@
+# 节点模块目录，不需要提交源代码控制
+node_modules/
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# 运行时生成的日志文件
+logs/
+*.log
+
+# 覆盖率报告（如使用 istanbul/nyc）
+coverage/
+
+# 编译输出目录（例如 TypeScript 的编译结果）
+dist/
+build/
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 环境变量文件，避免敏感数据泄露
+.env
+.env.local
+.env.*.local
+
+# VS Code 配置目录
+.vscode/
+
+# 其他 IDE 或编辑器配置（根据实际情况添加）
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
