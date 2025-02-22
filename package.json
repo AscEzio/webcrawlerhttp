@@ -1,0 +1,26 @@
+{
+  "name": "webcrawlerhttp",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsc -p tsconfig.json && node ./dist/index.js",
+    "build": "tsc -p tsconfig.json",
+    "test": "jest",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "repository": "https://github.com/AscEzio/webcrawlerhttp.git",
+  "author": "AscEzio <1647638002@qq.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/jest": "^29.5.14",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.24.1"
+  }
+}
