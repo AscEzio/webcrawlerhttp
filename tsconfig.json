@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+        "target": "ES2020", // 编译目标：ES2020语法（可根据需求调整）
+        "module": "CommonJS", // Node.js 默认模块系统为 CommonJS
+        "rootDir": "./src", // 源码根目录
+        "outDir": "./dist", // 编译输出目录
+        "strict": true, // 启用所有严格类型检查选项
+        "noImplicitAny": true, // 禁止隐式 any
+        "esModuleInterop": true, // 启用 esModuleInterop 以兼容 ES6 模块
+        "allowSyntheticDefaultImports": true, // 允许通过默认导入来加载没有默认导出的模块
+        "resolveJsonModule": true, // 允许导入 JSON 文件
+        "moduleResolution": "node", // 使用 Node.js 模块解析方式
+        "skipLibCheck": true, // 跳过依赖包的类型检查，加快编译速度
+        "forceConsistentCasingInFileNames": true, // 强制对文件名一致的大小写引用
+        "sourceMap": true // 生成对应的 source map 以方便调试
+    },
+    "include": [
+        "src/**/*.ts"
+    ], // 编译时包含的文件
+    "exclude": [
+        "node_modules",
+        "dist"
+    ] // 编译时排除的文件夹
+}
